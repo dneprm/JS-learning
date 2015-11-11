@@ -5,15 +5,16 @@
 
 		<script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
 		<script type="text/javascript" src="js/jquery.validate.min.js"></script>
+		<script type="text/javascript" src="js/jquery.maskedinput.min.js"></script>
 		<script type="text/javascript" src="js/script.js"></script>
 	</head>
 	<body>
 		<h2>Form-validation</h2>
 		<form id="myForm" action="" method="post">
 		  <p>Text:</p>
-		  <textarea name="mytext"></textarea><br/>
+		  <textarea name="mytext" id="mytext" placeholder="Введите текст"></textarea><br/>
 		  <p>Telephone:</p>
-		  <input type="tel" name="telephone" /> <br/>
+		  <input type="tel" name="telephone" id="telephone" placeholder="+38(067)000-0000"/> <br/>
 		  <p>Email:</p>
 		  <input type="email" name="email" placeholder="name@email.com" /><br/>
 		  <input type="submit" name="enter" value="Готово" />
